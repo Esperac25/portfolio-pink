@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Header />
         <Route exact path='/' component={LandingPage}/>
-        <Route path='/about' component={About}/>
-        <Route path='/projects' component={Projects}/>
-        <Route path='/contact' component={Contact}/>
+        <Route path='/#about' component={About}/>
+        <Route path='/#projects' component={Projects}/>
+        <Route path='/#contact' component={Contact}/>
       <Footer />
     </div>
   );
