@@ -4,7 +4,6 @@ const About = () => {
     return(
         <article id='about'>
             <div className='container'>
-                <img></img>
                 <p>Full-stack JavaScript developer with experience using React/Redux, Node.js, Express, and PostgreSQL to build user-friendly web applications. </p>
 
 <p>Well-versed in working with team members to deliver high-quality, multi-functional applications in a regulated test-driven environment.</p>

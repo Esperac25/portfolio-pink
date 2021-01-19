@@ -3,7 +3,7 @@ import React from 'react';
 const LandingPage = () => {
     return(
         <div>
-        <img/>
+        <img src='./Images/portfolio-pic.jpg' alt='pic of me'/>
         <h1>Hello, I'm Esperanza Cardenas</h1>
         <h3>Welcome to my portfolio</h3>
         <div className='landing-intro'>
