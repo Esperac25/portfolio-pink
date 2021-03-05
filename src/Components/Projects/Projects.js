@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import store from '../store';
+import store from '../../store';
 import Tile from './Tile';
 import cuid from 'cuid';
 const { projects } = store;
