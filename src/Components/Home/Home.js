@@ -8,8 +8,10 @@ const Home = () => {
 	return (
 		<article id="about">
 			<Nav />
-            <h3>"Hello and welcome to my portfolio!"</h3>
+            <h3 className='greeting'>"Hello, welcome to my portfolio!"</h3>
+			<div className='pic-box'>
 			<img className="me" src={me} alt="portfolio-pic" />
+			</div>
 			<div className="home-container">
 				<p>
 				    I am a Fullstack Web Developer

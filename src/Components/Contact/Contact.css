@@ -1,0 +1,99 @@
+fieldset{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    border: 2px solid #f7cac1;
+    background-color: #f7dcd6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+}
+
+legend{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sriracha';
+}
+
+.contact-h1{
+    font-family: 'Sriracha';
+    text-shadow: 1px 1px white;
+}
+
+.contact-article{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    background-color: #f7ebe8;
+    border-radius: 10px;
+}
+
+label{
+    text-align: left;
+}
+
+input{
+    border-radius: 7px;
+}
+
+.message{
+    height: 100px;
+    border-radius: 7px;
+}
+.contact-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: 100px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    background-color: #ff9999;
+    border-radius: 10px;
+    border-color:white;
+    opacity: 0.9;
+}
+
+@media all and (min-width: 1000px) {
+    .contact-h1{
+        font-family: 'Sriracha';
+        font-size: 35px;
+        text-shadow: 1px 1px white;
+        text-align: left;
+        margin-left: 200px;
+    }
+    .contact-article{
+        margin: auto;
+        width: 40%;
+        height: 50vh;
+        padding: 10px;
+        background-color: #f7ebe8;
+        border-radius: 10px;
+        margin-right: 55%;
+        font-size: 20px;
+    }
+    fieldset{
+        margin-left: 47%;
+        margin-top: -400px;
+        width: 50%;
+        height: 52vh;
+        margin-bottom: 100px;
+    }
+    input{
+        border-radius: 7px;
+    }
+    .message{
+        height: 200px
+    }
+    .contact-buttons{
+        padding-top: 50px;
+    }
+}

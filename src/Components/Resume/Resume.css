@@ -1,0 +1,22 @@
+.resume-img{
+    height: auto; 
+    width: 90%;
+    border-radius: 7px; 
+}
+
+.resume-container{
+    margin-top: 60px;
+    margin-bottom: 179px;
+}
+
+@media all and (min-width: 1000px) {
+    .resume-img{
+        height: auto; 
+        width: 50%;
+        border-radius: 7px; 
+    }
+    .resume-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

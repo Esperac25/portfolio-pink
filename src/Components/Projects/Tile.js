@@ -7,22 +7,22 @@ class Tile extends Component {
     render() { 
         let {img, title, description, stack, repo, live} = this.props;
         
-        if (img === null || img === '' || !img) {
-            img = '';
-        }
-
         return (
             <div className="tile" >
+                <h3 className='tile-title'>{title}</h3>
                 <img 
                     src={img} 
                     alt={`${title} screenshot`} 
                     className='tile-img'
                 />
-                <h3>{title}</h3>
+                <div className='tile-desc'>
                 <p>{description}</p>
                 <p>Tech Stack: {stack}</p>
-                <a href={repo}><button>Repo Link</button></a>
-                <a href={live}><button>Live App</button></a>
+                <div className='buttons'>
+                <a href={repo}><button className='tile-button'>Repo</button></a>
+                <a href={live}><button className='tile-button'>App</button></a>
+                </div>
+                </div>
             </div>  
         );
     };
