@@ -21,7 +21,7 @@ nav ul{
 
 .link:hover{
    font-size: 22px;
-   opacity: 0.7;
+   color: white;
 }
 
 @media all and (min-width: 1000px){
