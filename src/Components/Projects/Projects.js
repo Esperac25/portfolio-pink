@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import store from '../../store';
+import Nav from "../Nav/Nav";
+import store from './store';
 import Tile from './Tile';
 import cuid from 'cuid';
+
+
 const { projects } = store;
 
 
@@ -10,12 +13,14 @@ class Projects extends Component {
         const content = projects.map(project => <Tile {...project} key={cuid()}/>)
 
         return(
-            <article className="container" id="projects">
-                <h2>Projects</h2>
+            <div>
+            <Nav/>
+            <article className="projects-container" id="projects">
                 <div>
                     {content}
                 </div>
             </article>
+            </div>
         );
     }
 };

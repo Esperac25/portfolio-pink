@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Tile.css';
 
 
 class Tile extends Component {
@@ -15,7 +16,7 @@ class Tile extends Component {
                 <img 
                     src={img} 
                     alt={`${title} screenshot`} 
-                    className="" 
+                    className='tile-img'
                 />
                 <h3>{title}</h3>
                 <p>{description}</p>

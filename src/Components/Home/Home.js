@@ -1,44 +1,40 @@
 import React from "react";
 import Nav from "../Nav/Nav";
-import 'portfolio-pic.jpg';
+import me from "./portfolio-pic.jpg";
+import "./Home.css";
+
 
 const Home = () => {
 	return (
 		<article id="about">
 			<Nav />
-			<img src='portfolio-pic.jpg' alt="portfolio-pic"/>
+            <h3>"Hello and welcome to my portfolio!"</h3>
+			<img className="me" src={me} alt="portfolio-pic" />
 			<div className="home-container">
 				<p>
-					Full-stack JavaScript developer with experience using React/Redux,
-					Node.js, Express, and PostgreSQL to build user-friendly web
-					applications.{" "}
+				    I am a Fullstack Web Developer
+					based in Seattle, WA and I enjoy making vibrant and creative
+					applications.
 				</p>
 
 				<p>
-					Well-versed in working with team members to deliver high-quality,
-					multi-functional applications in a regulated test-driven environment.
+					After working as a Medical Assistant for a few years, I 
+					realized that I enjoyed the technical aspects over the clinical aspects of the job.
+                    This inspired me to make the move to Tech.
 				</p>
 
 				<p>
-					With my current experience in the medical field, I’m passionate about
+					With my experience in the medical field, I’m passionate about
 					building products that touch the lives of others. I've helped
 					doctors/providers deliver great patient care. Now, I want to build web
-					applications that allow users to be better. I also teach yoga in my
-					spare time to promote mental, spiritual, and emotional wellness.{" "}
+					applications that allow users to be better.
 				</p>
 
 				<p>
-					Connect with me if you are hiring passionate engineers or if you are
-					curious about my health and wellness journey.{" "}
+					Outside of programming, I love practicing yoga, painting, singing,
+					and dancing.
 				</p>
 
-				<p>I am open to opportunities in the Seattle area or remotely.</p>
-
-				<p>
-					Competencies: JavaScript, responsive web design, React.js, Redux,
-					Node.js, Express, HTML, CSS, jQuery, Git, test-driven development, web
-					application development, RESTful APIs, algorithms, data structures.
-				</p>
 			</div>
 		</article>
 	);

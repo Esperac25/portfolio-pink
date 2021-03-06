@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "../Nav/Nav";
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -12,7 +13,8 @@ export default class Contact extends React.Component {
   render() {
     const { status } = this.state;
     return (
-        <div className='container'>
+        <div className='contact-container'>
+        <Nav/>
         <h1>Contact Me</h1>
             <form
         onSubmit={this.submitForm}

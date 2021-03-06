@@ -1,0 +1,13 @@
+.tile{
+    width: 250px;
+    border: 1px solid #f7dcd6;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #f7c4bb;
+}
+
+.tile-img{
+    height: auto;
+    width: 50%;
+}
