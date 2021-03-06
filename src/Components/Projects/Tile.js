@@ -19,8 +19,8 @@ class Tile extends Component {
                 <p>{description}</p>
                 <p>Tech Stack: {stack}</p>
                 <div className='buttons'>
-                <a href={repo}><button className='tile-button'>Repo</button></a>
-                <a href={live}><button className='tile-button'>App</button></a>
+                <button className='tile-button'><a href={repo} rel='noreferrer' target='_blank'>Repo</a></button>
+                <button className='tile-button'><a href={live} rel='noreferrer' target='_blank'>App</a></button>
                 </div>
                 </div>
             </div>  

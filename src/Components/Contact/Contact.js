@@ -33,10 +33,10 @@ export default class Contact extends React.Component {
             >
             <fieldset>
               <legend>Contact Me</legend>
-              <label htmlFor='email'>Email:</label>
+              <label id='email' htmlFor='email'>Email:</label>
               <input type="email" name="email" />
-              <label htmlFor='message'>Message:</label>
-              <textarea className='message' type="text" name="message" />
+              <label id='message' htmlFor='message'>Message:</label>
+              <textarea className='message' name="message" />
               {status === "SUCCESS" ? <p>Thank you, your message has been submitted.</p> : <button className='contact-button'>Submit</button>}
               {status === "ERROR" && <p>Oops! There was an error, please try again.</p>}
             </fieldset>
