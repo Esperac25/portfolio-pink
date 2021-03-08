@@ -75,7 +75,7 @@ input{
     .contact-article{
         margin: auto;
         width: 40%;
-        height: 50vh;
+        height: 55vh;
         padding: 10px;
         background-color: #f7ebe8;
         border-radius: 10px;
@@ -84,7 +84,7 @@ input{
     }
     fieldset{
         margin-left: 47%;
-        margin-top: -55vh;
+        margin-top: -60vh;
         width: 50%;
         height: 52vh;
         margin-bottom: 241px;

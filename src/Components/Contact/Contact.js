@@ -24,6 +24,9 @@ export default class Contact extends React.Component {
             <div className='contact-buttons'>
               <a href='https://www.linkedin.com/in/esperanza-cardenas/'><button className='tile-button'>LinkedIn</button></a>
               <a href='https://github.com/Esperac25'><button className='tile-button'>Github</button></a>
+              <a href='mailto:esperac25@gmail.com'><button className='tile-button'>Email</button></a>
+           
+
             </div>
           </article>
             <form
