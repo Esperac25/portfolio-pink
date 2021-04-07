@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from "../Nav/Nav";
-import resume from './resume-cropped.png';
+import resume from './resume.png';
 import './Resume.css'
 
 const Resume = () => {
