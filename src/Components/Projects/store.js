@@ -26,7 +26,7 @@ const store = {
             title: 'GeoQuiz',
             description: 'GeoQuiz was a group made jQuery application, created to help users study USA states and capitols.',
             stack: 'HTML5, CSS3, jQuery',
-            repo: 'https://github.com/Esperac25/Geography-Quiz-App',
+            client: 'https://github.com/Esperac25/Geography-Quiz-App',
             live: 'https://jpol95.github.io/quiz-app/',
         },
     ]
