@@ -5,7 +5,7 @@ import './Tile.css';
 class Tile extends Component {
     
     render() { 
-        let {img, title, description, stack, repo, server, client, live} = this.props;
+        let {img, title, description, stack, server, client, live} = this.props;
         
         return (
             <div className="tile" >
@@ -22,8 +22,6 @@ class Tile extends Component {
                 <button className='tile-button'><a href={live} rel='noreferrer' target='_blank'>Demo</a></button>
                 <button className='tile-button'><a href={client} rel='noreferrer' target='_blank'>Client Repo</a></button>
                 <button className='tile-button'><a href={server} rel='noreferrer' target='_blank'>Server Repo</a></button>
-                <button className='tile-button'><a href={repo} rel='noreferrer' target='_blank'>Repo</a></button>
-
                 </div>
                 </div>
             </div>  
